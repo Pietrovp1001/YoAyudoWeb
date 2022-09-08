@@ -15,10 +15,9 @@
            <h1>YoAyudo</h1>
         </div>
         <div class="nav-items">
-           <a href="index.html">Inicio</a> 
-           <a href="contacto.html">Contacto</a>
-           <a href="mainpage.html">Sobre Nosotros</a>
-           <a href="login.html">Iniciar Sesión</a>
+            <a href="login.html">Iniciar Sesión</a> 
+            <a href="contacto.html">Contacto</a>
+           
         </div>
            
         <form action="https://www.google.com/search/">
@@ -26,7 +25,6 @@
         <button type="submit" class="boton_busqueda">Buscar</button>
         </form>
     </nav>
-
     <div class="Posts">
         <div>
             <div>
@@ -35,10 +33,50 @@
                     <h1 class="TituloPost">Rescate gatos</h1>
                     <p>Hola! Somos German y Gloria, cerca de nuestra casa hay un parque con muchos gatos en situacion de calle, requerimos tu ayuda para darles una mejor vida.</p>
                     <p>Seria ideal que pudieras venir a ayudarnos a darles comida, darle sus cuidados, jugar con ellos y si es posible que adoptes alguno para darles una mejor calidad de vida </p>
-                    <p><a href="actividad_1.html" class="InscribirButton">Participar!</a></p>
                 </div>
             </div>
         </div>
     </p>
 </body>
+
+<div id="Inscripcion">    
+    <form action="contactCompleto.html" >
+  
+      <label for="fullname">Nombre Completo</label>
+      <input type="text" id="fname" name="nombre" placeholder="Introduce tu nombre completo...">
+
+      <label for="mail">Correo electronico</label>
+      <input type="text" id="mail" name="correo" placeholder="Ejemplo@gmail.com">
+    
+      <label for="doc">Tipo de documento:</label>
+      <select name="Documento" id="doc">
+          <option value="selec">Selecciona tu documento...</option>
+          <option value="CC">Cedula de ciudadania</option>
+          <option value="CE">Cedula de extranjeria</option>
+          <option value="PAS">Pasaporte</option>
+          <option value="OT">Otro</option>
+      </select>
+      
+      <input type="text" id="doc" name="doc" placeholder="Numero de documento">
+      <input type="submit" value="Enviar">
+    </form>
+  </div>
+</body>
+
+<footer>
+    <div class="footer">
+        <div class="footer-items">
+            <h2>Redes Sociales</h2>
+            <a href="https://www.facebook.com/"><img src="Imagenes/icons/facebook.png" class="redes"></a>
+            <a href="https://www.instagram.com/"><img src="Imagenes/icons/instagram.png" class="redes"></a>
+            <a href="https://twitter.com/"><img src="Imagenes/icons/twitter.png" class="redes"></a>
+        </div>
+        <div class="footer-items">
+            <h2>Informacion</h2>
+            <a href="index.html">Inicio</a>
+            <a href="contacto.html">Contacto</a>
+        </div>
+    </div>
+  </footer>
+
 </html>
