@@ -28,11 +28,16 @@ background-color: rgba(123, 175, 142, 0.952);
 
 #card {
     
-    width: 96%;
-    max-width: 960px;
+  position: relative;
+  width: auto;
+  height: auto;
 
-    }
-    .post_img {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  }
+    
+  .post_img {
     width: auto;
     height: auto;
     }
