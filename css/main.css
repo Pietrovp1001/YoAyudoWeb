@@ -20,11 +20,21 @@
     align-items: center;
     }
 
+.InscribirButton{
+  display: block;
+  color: #FFFFFF;
+  background-color: #ff1268;
+  border-radius: 40%;
+  height: 40px;
+  width: 120px;
+  text-align:center;
+}    
+
 .card {
-width: fit-content;
-height: fit-content;
-background-color: rgba(123, 175, 142, 0.952);
-}
+    width: fit-content;
+    height: fit-content;
+    background-color: rgba(123, 175, 142, 0.952);
+  }
 
 #card {
     
@@ -56,7 +66,7 @@ background-color: rgba(123, 175, 142, 0.952);
       {
         height: 50px;
         width: 100%;
-        background-color: #1177ca;
+        background-color: #7305f8;
         position: relative;
       }
       
@@ -103,12 +113,12 @@ background-color: rgba(123, 175, 142, 0.952);
       }
       .nav > .nav-links > ul li{
         display: inline-block;
-        background-color: #1177ca;
+        background-color: #7305f8;
         
         
       }
       .nav > .nav-links > ul li:hover{
-          background-color: #0b65af;
+          background-color: #5d09c4;
           border-radius: 5px;
       }
       
@@ -192,7 +202,7 @@ background-color: rgba(123, 175, 142, 0.952);
       
       .btn-search
       {
-        background-color: #0b3caf;
+        background-color: #561b9e;
         border: none;
         color: white;
         padding: 10px 8px;
@@ -204,11 +214,11 @@ background-color: rgba(123, 175, 142, 0.952);
        
        input[type=search] 
        { 
-        color: #0b3caf;  
+        color: #561b9e;  
         cursor: pointer;            
         border: none;
         border-radius: 5px;
-        outline: #0b3caf;
+        outline: #561b9e;
         }
         
         .banner {
