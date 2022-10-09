@@ -24,7 +24,7 @@
   display: block;
   color: #FFFFFF;
   background-color: #ff1268;
-  border-radius: 40%;
+  border-radius: 10%;
   height: 40px;
   width: 120px;
   text-align:center;
@@ -45,38 +45,34 @@
   background: #FFFFFF;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
+  
+  margin-top: 30px;
+  font-size: large;
   }
     
   .post_img {
     width: auto;
     height: auto;
+    margin-bottom: 25px;
     }
 
     * {
         box-sizing: border-box;
       }
-      
-      body 
-      {
+      body {
         margin: 0px;
         font-family: 'segoe ui';
       }
-      
-      .nav 
-      {
+      .nav {
         height: 50px;
         width: 100%;
         background-color: #7305f8;
         position: relative;
       }
-      
-      .nav > .nav-header 
-      {
+      .nav > .nav-header {
         display: inline;
       }
-      
-      .nav > .nav-header > .nav-title 
-      {
+      .nav > .nav-header > .nav-title  {
         display: inline-block;
         font-size: 22px;
         color: #fff;
@@ -84,12 +80,9 @@
         font-family: Arial, Helvetica, sans-serif;
         padding: 10px 10px 10px 10px;
       }
-      
-      .nav > .nav-btn
-     {
+      .nav > .nav-btn{
         display: none;
-      }
-      
+      } 
       .nav > .nav-links {
         display: inline;
         float: right;
@@ -120,25 +113,21 @@
       .nav > .nav-links > ul li:hover{
           background-color: #5d09c4;
           border-radius: 5px;
-      }
-      
+      } 
       .nav > #nav-check {
         display: none;
       }
-    
      .nav .nav-links ul a.icon{
      margin-left: 80px;
      margin-right: 10px;
      }
-    
      .nav .nav-links ul a i{
         background-color: #fff;
         border-radius: 50px;
         padding: 7px;
         margin-left: 5px;
      }
-    
-      
+     /* Responsive Nav Bar*/
       @media (max-width:750px) {
         .nav > .nav-btn {
           display: inline-block;
@@ -198,10 +187,8 @@
           height: calc(100vh - 50px);
           overflow-y: auto;
         }
-      }
-      
-      .btn-search
-      {
+      }      
+      .btn-search{
         background-color: #561b9e;
         border: none;
         color: white;
@@ -210,21 +197,23 @@
         text-decoration: none;
         cursor: pointer;
         border-radius: 5px;
-       }
-       
-       input[type=search] 
-       { 
+       }   
+       input[type=search] { 
         color: #561b9e;  
         cursor: pointer;            
         border: none;
         border-radius: 5px;
         outline: #561b9e;
-        }
+      }
         
         .banner {
             height: 100%;
             width: auto;
             max-width: max-content;
             position: relative;
+        }
+        .info_post{
+          display: inline-block;
+          vertical-align: top;
         }
         
