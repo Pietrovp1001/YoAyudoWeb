@@ -8,27 +8,39 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <nav class="NavBar">
-        <div class="Icono">
+    <!-- Barra de navegación superior -->
+    <div class="nav">
+        <input type="checkbox" id="nav-check">
+        <div class="nav-header">
+          <div class="nav-title">
+            YoAyudo
+          </div >
         </div>
-        <div class="logo">
-           <h1>YoAyudo</h1>
+        <div class="nav-btn">
+          <label for="nav-check">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
         </div>
-        <div class="nav-items">
+        
+        <div class="nav-links">
+            <ul>
+          
+          <li><a href="index.html" target="_self">Inicio</a></li>
+          <li><a href="contacto.html" target="_self">Contacto</a></li>
+          <li><a href="crearVountariado.html" target="_self">Crear Vountariado</a></li>
+          <li><a href="login.html" target="_self">Iniciar Sesión</a></li>
+          <li>
+            <form action="index.html">
+            <input type="search" class="search" placeholder="Buscar voluntariado">
+            <button type="submit" class="btn-search">Buscar</button></form></li>
+          <a class="icon">
             
-            <a href="index.html">Inicio</a> 
-            <a href="contacto.html">Contacto</a>
-            <a href="crearVountariado.html">Crear Voluntariado</a>
-            <a href="login.html">Iniciar Sesión</a> 
-           
+          </a>
+            </ul>
         </div>
-           
-           
-        <form action="https://www.google.com/search/">
-        <input type="search" class="buscador" placeholder="Buscar voluntariado">
-        <button type="submit" class="boton_busqueda">Buscar</button>
-        </form>
-    </nav>
+    </div>
     <div class="Posts">
         <div>
             <div>
@@ -69,16 +81,18 @@
 
 <footer>
     <div class="footer">
-        <div class="footer-items">
+        <div class="footer-items1">
             <h2>Redes Sociales</h2>
             <a href="https://www.facebook.com/"><img src="Imagenes/icons/facebook.png" class="redes"></a>
             <a href="https://www.instagram.com/"><img src="Imagenes/icons/instagram.png" class="redes"></a>
             <a href="https://twitter.com/"><img src="Imagenes/icons/twitter.png" class="redes"></a>
         </div>
-        <div class="footer-items">
+        <div class="footer-items2">
             <h2>Informacion</h2>
-            <a href="index.html">Inicio</a>
-            <a href="contacto.html">Contacto</a>
+            <a href="index.html" class="footer-items"><img src="Imagenes/icons/home.png" class="redes"></a>
+            <a href="index.html" class="footer-items">Inicio</a>
+            <a href="contacto.html" class="footer-items"><img src="Imagenes/icons/contacto.png" class="redes"></a>
+            <a href="contacto.html" class="footer-items">Contacto</a>
         </div>
     </div>
   </footer>
