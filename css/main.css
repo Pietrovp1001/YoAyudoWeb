@@ -2,6 +2,9 @@
     max-width: 30%;
     height: 10%;
     border-radius: 2%;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
     }
 .redes{
     max-width: 5%;
@@ -234,6 +237,8 @@
           align-items: center;
           display: space-between;
           vertical-align: top;
+          margin-right: 2%;
+          margin-left: 2%;
         }
 
 
