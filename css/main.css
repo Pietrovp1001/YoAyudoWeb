@@ -225,7 +225,7 @@
         
         .banner {
             height: 100%;
-            width: auto;
+            width: 100%;
             max-width: max-content;
             position: relative;
         }
