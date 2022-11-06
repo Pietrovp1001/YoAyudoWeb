@@ -56,26 +56,32 @@
     </p>
 </body>
 
-<div id="inscripcion">    
+<div id="inscripcion" class="inscripcionItems">  
+  <h2>¡Inscribete!</h2>  
     <form action="contactCompleto.html" >
-  
-      <label for="fullname">Nombre Completo</label>
-      <input type="text" id="fname" name="nombre" placeholder="Introduce tu nombre completo...">
-
-      <label for="mail">Correo electronico</label>
-      <input type="text" id="mail" name="correo" placeholder="Ejemplo@gmail.com">
-    
-      <label for="doc">Tipo de documento:</label>
-      <select name="Documento" id="doc">
-          <option value="selec">Selecciona tu documento...</option>
-          <option value="CC">Cedula de ciudadania</option>
-          <option value="CE">Cedula de extranjeria</option>
-          <option value="PAS">Pasaporte</option>
-          <option value="OT">Otro</option>
-      </select>
-      
-      <input type="text" id="doc" name="doc" placeholder="Numero de documento">
-      <input type="submit" value="Enviar">
+      <div>
+        <label for="fullname">Nombre Completo</label>
+        <p><input type="text" id="fname" name="nombre" placeholder="Introduce tu nombre completo..."></p>
+      </div>
+      <div>
+        <label for="mail">Correo electronico</label>
+        <p><input type="text" id="mail" name="correo" placeholder="Ejemplo@gmail.com"></p>
+      </div>
+      <div>
+        <label for="doc">Tipo de documento:</label>
+        <p><select name="Documento" id="doc">
+            <option value="selec">Selecciona tu documento...</option>
+            <option value="CC">Cedula de ciudadania</option>
+            <option value="CE">Cedula de extranjeria</option>
+            <option value="PAS">Pasaporte</option>
+            <option value="OT">Otro</option>
+        </select></p>
+      </div>
+      <div>
+        <label for="fullname">Numero de documento</label>
+        <p><input type="text" id="doc" name="doc" placeholder="Ingresa tu numero de documento..."></p>
+      </div>
+      <p><a href="contactCompleto.html" class="crear_btn">Contactar</a></p>
     </form>
   </div>
 </body>
