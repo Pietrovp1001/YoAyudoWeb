@@ -30,6 +30,13 @@
     justify-content:center;
     align-items: center;
     }
+.createVolunteer{
+  margin: 2%;
+}
+.container{
+  justify-content: center;
+  align-items: center;
+}
 
 .InscribirButton{
   display: block;
