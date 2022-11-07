@@ -5,81 +5,107 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
     <title>Contacto</title>
 </head>
 <body>
     
   <!-- Barra de navegación superior -->
-  <div class="nav">
-    <input type="checkbox" id="nav-check">
-    <div class="nav-header">
-      <div class="nav-title">
-        YoAyudo
-      </div >
-    </div>
-    <div class="nav-btn">
-      <label for="nav-check">
-        <span></span>
-        <span></span>
-        <span></span>
-      </label>
-    </div>
-    
-    <div class="nav-links">
-        <ul>
-      
-      <li><a href="index.html" target="_self">Inicio</a></li>
-      <li><a href="contacto.html" target="_self">Contacto</a></li>
-      <li><a href="crearVountariado.html" target="_self">Crear Vountariado</a></li>
-      <li><a href="login.html" target="_self">Iniciar Sesión</a></li>
-      <li>
-        <form action="index.html">
-        <input type="search" class="search" placeholder="Buscar voluntariado">
-        <button type="submit" class="btn-search">Buscar</button></form></li>
-      <a class="icon">
-        
-      </a>
-        </ul>
-    </div>
-</div>
-<div class="contactar">
-    <div class="container">
-      <h2>¡Contactanos!</h2>
-      <div class="row">
-        <div class="col-25">
-        <label for="fname">Nombre completo</label>
-        </div>
-        <div class="col-75">
-        <input type="text" id="fname" name="firstname" placeholder="Pepito">
-        </div>
-      </div>
-      
-      <div class="row">
-        <div class="col-25">
-        <label for="subject">Tu mensaje</label>
-        </div>
-        <div class="col-75">
-        <textarea id="subject" name="subject" placeholder="Explicanos el motivo de tu solicitud" style="height:200px"></textarea>
-        </div>
-      </div>
+  <div class="page-wrapper">
+    <div class="nav-wrapper">
+     <nav class="navbar">
+      <a title="yoayudo" href="index.html"><img src="Imagenes/Logo.png" alt="Logo" /></a>
+       <div class="menu-toggle" id="mobile-menu">
+         <span class="bar"></span>
+         <span class="bar"></span>
+         <span class="bar"></span>
+       </div>
+       <ul class="nav no-search">
+         <li class="nav-item"><a href="contacto.html">Contactanos</a></li>
+         <li class="nav-item"><a href="#"></a></li>
+         <li class="nav-item"><a href="crearVountariado.html">Crear Voluntariado</a></li>
+         <li class="nav-item"><a href="#"></a></li>
+         <li class="nav-item"><a href="login.html">Iniciar sesion</a></li>
+         <i class="fas fa-search" id="search-icon"></i>
+         <input class="search-input" type="text" placeholder="Buscar voluntariado...">
+       </ul>
+     </nav>
+     </div>
 
-      <div class="row">
-        <div class="col-25">
-        <label for="fname">Correo electronico</label>
-        </div>
-        <div class="col-75">
-        <input type="text" id="fname" name="firstname" placeholder="pepito@yoayudo.com">
-        </div>
-      </div>
-      
-      <div class="row">
-        <p><a href="contactCompleto.html" class="crear_btn">Contactar</a></p>
-      </div>
-    </div>
-</div>
 
-</body>
+     <section class="section-bg" style="background-image: url(Imagenes/Banner.png);"  data-scroll-index="7">
+      <div class="overlay pt-100 pb-100 ">
+        <div class="container">
+           <div class="row">
+                <div class="col-lg-6 d-flex align-items-center">
+                    <div class="contact-info">
 
+                        <h2 class="contact-title">Contactanos!</h2>
+                        <p>Si tienes alguna duda sobre algun voluntariado, o quieres saber mas sobre nosotros, no dudes en contactarnos!.</p>
+                        <ul class="contact-info">
+                            <li>
+                              <div class="info-left">
+                                  <i class="fas fa-mobile-alt"></i>
+                              </div>
+                              <div class="info-right">
+                                  <h4>+57301000000</h4>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="info-left">
+                                  <i class="fas fa-at"></i>
+                              </div>
+                              <div class="info-right">
+                                  <h4>Correo@yoayudo.com</h4>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="info-left">
+                                  <i class="fas fa-map-marker-alt"></i>
+                              </div>
+                              <div class="info-right">
+                                  <h4>Medellin, Colombia</h4>
+                              </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-flex align-items-center">
+                        <div class="contact-form">
+                                    <!--Contact Form-->
+                                    <form id='contact-form' method='POST' action="/contactCompleto.html"><input type='hidden' name='form-name' value='contactForm' />
+                                        <div class="row">
+                                           <div class="col-md-12">
+                                              <div class="form-group">
+                                                 <input type="text" name="name" class="form-control" id="first-name" placeholder="Ingresa tu nombre..." required="required">
+                                              </div>
+                                           </div>
+                                           <div class="col-md-12">
+                                              <div class="form-group">
+                                                 <input type="email" name="email" class="form-control" id="email" placeholder="Ingresa tu email..." required="required">
+                                              </div>
+                                           </div>
+
+                                           <div class="col-md-12">
+                                              <div class="form-group">
+                                                   <textarea rows="4" name="message" class="form-control" id="description" placeholder="Escribe tu mensaje aqui..." required="required"></textarea>
+                                              </div>
+                                           </div>
+                                            <div class="col-md-12">
+                                                <!--contact button-->
+                                                <button  class="btn-big btn btn-bg">
+                                                    Enviar mensaje <i class="fas fa-arrow-right"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                </div>
+           </div>
+       </div>
+          </div>
+    </section>
 
 
 
